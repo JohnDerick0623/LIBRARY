@@ -19,6 +19,7 @@
             <a class="nav-link" href="../index.html"> Back </a>
         </div>
 
+<<<<<<< Updated upstream
         <div>
             <input type="text" id="borrowerId" hidden>
             
@@ -45,6 +46,10 @@
             <button id="updateBorrow" class="btn btn-primary">Update Borrow</button>
         
         </div>
+=======
+        <button id="addBorrow" class="btn btn-success">Add Borrow</button>
+        <button id="deleteSelected" class="btn btn-danger">Delete Selected</button>
+>>>>>>> Stashed changes
 
         <!-- Search, Filter and Sort Controls -->
         <div class="search-sort">
@@ -63,6 +68,9 @@
             <thead>
                 <tr>
                     <th>
+                        <input type="checkbox" id="selectAll">
+                    </th>
+                    <th>
                         Borrower Name
                         <button id="sortBorrowerNameAsc" class="sort-btn">↑</button>
                         <button id="sortBorrowerNameDesc" class="sort-btn">↓</button>
@@ -80,14 +88,25 @@
                     </th>
                     <th>
                         Borrow Status
-                        <button id="sortBorrowStatusAsc" class="sort-btn">↑</button>
-                        <button id="sortBorrowStatusDesc" class="sort-btn">↓</button>
                     </th>
                     <th>Actions</th>
                 </tr>
             </thead>
 
             <tbody id="borrowList">
+<<<<<<< Updated upstream
+=======
+                <!-- Borrow records will be displayed here -->
+            </tbody>
+        </table>
+        
+        <!-- Pagination controls -->
+        <div id="paginationControls" class="pagination-controls">
+            <button id="prevPage" class="pagination-btn">Previous</button>
+            <span id="pageInfo">Page 1</span>
+            <button id="nextPage" class="pagination-btn">Next</button>
+        </div>
+>>>>>>> Stashed changes
 
                 <!-- Borrow records will be displayed here -->
 
